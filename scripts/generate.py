@@ -17,7 +17,7 @@ EXTERNAL_API_BASE = 'https://cloud-text-manager-server.vercel.app'
 EXTERNAL_API_URL = f'{EXTERNAL_API_BASE}/api/all-files'
 GENERATED_DIR = os.path.join(os.getcwd(), 'generated-content')
 
-BATCH_SIZE = 15
+BATCH_SIZE = 2
 CONCURRENCY_LIMIT = 1
 REQUEST_DELAY = 1.5
 MAX_RETRIES = 5
