@@ -37,8 +37,7 @@ def generate_response(messages):
     }
     data = {
         "model": "stepfun/step-3.5-flash:free",
-        "messages": messages,
-        "extra_body": {"reasoning": {"enabled": True}}
+        "messages": messages
     }
     
     response = requests.post(url, headers=headers, json=data)
